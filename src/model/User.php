@@ -6,7 +6,7 @@
  * Time: 3:35 PM
  */
 
-namespace Indilabz\Chat\model;
+namespace Indilabz\model;
 
 
 use Illuminate\Database\Eloquent\Model;

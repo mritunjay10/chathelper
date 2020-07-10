@@ -9,7 +9,7 @@
 
 use Illuminate\Database\Capsule\Manager;
 
-require_once "vendor/autoload.php";
+require_once "../vendor/autoload.php";
 
 
 $config = array(
@@ -30,8 +30,9 @@ $capsule->bootEloquent();
 
 $opr = new \Indilabz\Chat();
 
-echo json_encode($opr->blockUser(1, 'one'));
+//echo json_encode($opr->blockUser(1, 'one'));
 
+echo json_encode($opr->user(1));
 
 
 

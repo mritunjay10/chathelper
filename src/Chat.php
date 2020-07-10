@@ -9,11 +9,9 @@
 namespace Indilabz;
 
 
-use Chat\model\Message;
-use Illuminate\Database\Capsule\Manager;
-use Indilabz\Chat\model\StarredMessage;
-use Indilabz\Chat\model\User;
 use Indilabz\model\Channel;
+use Indilabz\model\Message;
+use Indilabz\model\User;
 
 
 class Chat
